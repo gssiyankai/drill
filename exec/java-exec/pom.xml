@@ -441,6 +441,10 @@
       <scope>test</scope>
       <exclusions>
         <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+        <exclusion>
           <groupId>org.mortbay.jetty</groupId>
           <artifactId>servlet-api</artifactId>
         </exclusion>
